@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -53,6 +54,26 @@
 
   <style>
     /* Subtle scroll reveal transitions */
+    :root {
+            --color-whatsapp: #25D366;
+            --color-whatsapp-hover: #128C7E;
+        }
+        .btn-whatsapp {
+            background-color: var(--color-whatsapp);
+            color: white;
+            font-weight: 600;
+            border-radius: 9999px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: var(--color-whatsapp-hover);
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
+        }
     .reveal {
       opacity: 0;
       transform: translateY(18px);
@@ -758,24 +779,25 @@
                     <span class="w-2 h-2 rounded-full bg-sage mt-2 shrink-0"></span>
                     <span>Certified Life Coach - IISDT.</span>
                   </li>
-                  <li class="flex items-start gap-2.5">
+                  <!-- <li class="flex items-start gap-2.5">
                     <span class="w-2 h-2 rounded-full bg-sage mt-2 shrink-0"></span>
                     <span>Certified in Marital &amp; Relationship Guidance - IISDT.</span>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
 
+              <!-- Recognition & Community Impact -->
               <div class="bg-cream rounded-2xl p-6 border border-sand mb-7">
                 <h3 class="font-serif text-lg font-semibold text-charcoal mb-3">Recognition & Community Impact</h3>
                 <p class="space-y-2.5 text-sm sm:text-base text-charcoal">Keerthi is also proud to be associated with leading mental health communities, including Therapovo, Find My Therapist, and Zoechea. Through these communities, she connects with fellow professionals, shares knowledge and experiences, and contributes to making emotional wellness support more accessible to individuals and families.</p>
                 <ul class="space-y-2.5 text-sm sm:text-base text-charcoal">
                   <li class="flex items-start gap-2.5">
                     <span class="w-2 h-2 rounded-full bg-sage mt-2 shrink-0"></span>
-                    <span><strong>Santasa Emotional Wellness and Coaching</strong> | Udyam Registered MSME (Udayam Registration Number :- UDYAM-KR-03-0785927) | Government of India</span>
+                    <span><strong>Santasa Emotional Wellness and Coaching</strong> | Udyam Registered MSME | Government of India</span>
                   </li>
                   <li class="flex items-start gap-2.5">
                     <span class="w-2 h-2 rounded-full bg-sage mt-2 shrink-0"></span>
-                    <a href="https://wonderwomanwednesday.com/journey-as-a-counsellor-at-santasa/"><strong>Featured in Wonder Women Wednesday × Santasa Emotional Wellness and Coaching</strong></a>
+                    <span><strong>Featured in Wonder Women Wednesday × Santasa Emotional Wellness and Coaching</strong></span>
                   </li>
                   <li class="flex items-start gap-2.5">
                     <span class="w-2 h-2 rounded-full bg-sage mt-2 shrink-0"></span>
@@ -784,7 +806,7 @@
                   
                   <li class="flex items-start gap-2.5">
                     <span class="w-2 h-2 rounded-full bg-sage mt-2 shrink-0"></span>
-                    <a href="https://set.jainuniversity.ac.in/news/ise-launches-bodhi-darpan-club"><strong>Invited As Chief Guest to Jain University</strong></a>
+                    <span><strong>Invited As Chief Guest to Jain University</strong></span>
                   </li>
                 </ul>
               </div>
@@ -1568,7 +1590,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="accordion-content">
               <div class="accordion-inner">
                 <div class="px-6 pb-5 text-charcoal-muted leading-relaxed border-t border-sand/50 pt-3.5">
-                  Contact Santasa by phone, email or the website enquiry form to discuss the next steps.
+                  Contact Santasa by phone, email or whatsapp message to discuss the next steps.
                 </div>
               </div>
             </div>
@@ -1666,7 +1688,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div>
               <h3 class="font-serif text-2xl font-semibold text-charcoal mb-2">Contact Details</h3>
               <p class="text-sm text-charcoal-muted">
-                Reach out directly by phone, email, or submit the enquiry form to discuss appointment availability.
+                Reach out directly by phone, email, or whatsapp message to discuss appointment availability.
               </p>
             </div>
 
@@ -1770,14 +1792,51 @@ document.addEventListener("DOMContentLoaded", function () {
                   <p class="text-xs uppercase tracking-wider text-charcoal-muted">Languages Spoken</p>
                   <p class="font-medium text-charcoal">English, Hindi and Kannada</p>
                 </div>
-              </div>  
-            </div>
-          </div>
+              </div> 
+              
+              
+<div class="flex items-start gap-3.5">
+    <div class="mt-4 flex flex-col md:flex-row justify-center items-center gap-4 text-gray-600">
 
-          <!-- Contact Form Card -->
+        <a href="https://www.instagram.com/santasawellness?stkn=bHc2aTdkMjg0bWYz"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="w-12 h-12 rounded-full bg-sage-tint-800 flex items-center justify-center text-sage-tint-400 hover:bg-santasa-sage-tint hover:text-black transition-all">
+            <i class="fab fa-instagram text-xl"></i>
+        </a>
+
+        <a href="https://www.facebook.com/share/1AxkZ9Bp8j/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="w-12 h-12 rounded-full bg-sage-tint-800 flex items-center justify-center text-sage-tint-400 hover:bg-santasa-sage-tint hover:text-black transition-all">
+            <i class="fab fa-facebook-f text-xl"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/keerthi-b-nadig-ab0856178/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="w-12 h-12 rounded-full bg-sage-tint-800 flex items-center justify-center text-sage-tint-400 hover:bg-santasa-sage-tint hover:text-black transition-all">
+            <i class="fab fa-linkedin-in text-xl"></i>
+        </a>
+
+              </div>
+          </div>
+          </div>
+          </div>
         </div>
       </div>
-    </section>
+</section>
+
+  <!-- Disclaimer Section -->
+        <section id="disclaimer" class="py-16 bg-light fade-in-up">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+                <h3 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-charcoal max-w-3xl mx-auto leading-tight mb-6">Disclaimer</h3>
+                <p class="max-w-2xl mx-auto space-y-4 text-base sm:text text-charcoal-muted leading-relaxed mb-9">
+                    Santasa Wellness provides non-clinical marriage consulting, relationship coaching, and life coaching focused on practical communication, personal growth, and relationship clarity. Our sessions are educational, supportive, and future-focused, and are not a substitute for clinical psychotherapy, psychiatric care, medical treatment, or legal advice. We do not diagnose, treat, prescribe, or provide clinical therapy for any medical or mental health conditions. Clients remain responsible for their own choices and well-being. For medical emergencies or crisis support, please contact a qualified healthcare provider or local emergency helpline immediately.
+                </p>
+            </div>
+        </section>
+
   </main>
 
   <!-- =====================================================================
@@ -1795,9 +1854,9 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
           <div>
             <p class="font-serif text-lg font-semibold text-white tracking-wide">
-              SANTASA EMOTIONAL WELLNESS AND COACHING
+              SANTASA WELLNESS
             </p>
-            <p class="text-xs text-cream/70">Relationship Coaching for Individuals and Couples</p>
+            <p class="text-xs text-cream/70">EMOTIONAL WELLNESS & COACHING</p>
           </div>
         </div>
 
@@ -1829,6 +1888,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="tel:+919686450568" class="text-terracotta-light hover:underline">9686450568</a>
           </p>
         </div>
+        
       </div>
 
       <!-- Quick Navigation -->
@@ -1867,6 +1927,18 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 </footer>
+
+ <!-- Book Now Floating Button -->
+<a href="https://wa.me/919686450568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20session."
+   target="_blank"
+   rel="noopener noreferrer"
+   title="Book Your First Session"
+   aria-label="Chat with us on WhatsApp"
+   class="btn-whatsapp fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full shadow-lg transition-transform hover:scale-110">
+
+    <i class="fab fa-whatsapp text-3xl"></i>
+
+</a>
 
 <!-- LEGAL & ETHICAL DISCLOSURE MODAL -->
 <div id="legal-modal" role="dialog" aria-modal="true" aria-labelledby="legal-modal-title" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-charcoal/60 backdrop-blur-xs">
@@ -1993,154 +2065,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // 5. Interactive Enquiry Form Validation & Submission
-  const enquiryForm = document.getElementById('enquiry-form');
-  const enquiryConfirmation = document.getElementById('enquiry-confirmation');
-  let latestEnquiryText = '';
-
-  // Run form code only if the enquiry form exists
-  if (enquiryForm && enquiryConfirmation) {
-    enquiryForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-
-      const nameInput = document.getElementById('name');
-      const emailInput = document.getElementById('email');
-      const phoneInput = document.getElementById('phone');
-      const typeInput = document.getElementById('coaching-type');
-      const formatInput = document.getElementById('session-format');
-      const messageInput = document.getElementById('message');
-
-      const nameVal = nameInput.value.trim();
-      const emailVal = emailInput.value.trim();
-      const phoneVal = phoneInput.value.trim();
-      const typeVal = typeInput.value;
-      const formatVal = formatInput.value;
-      const messageVal = messageInput.value.trim();
-
-      let valid = true;
-
-      if (!nameVal) {
-        document.getElementById('error-name').classList.remove('hidden');
-        valid = false;
-      } else {
-        document.getElementById('error-name').classList.add('hidden');
-      }
-
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailVal || !emailRegex.test(emailVal)) {
-        document.getElementById('error-email').classList.remove('hidden');
-        valid = false;
-      } else {
-        document.getElementById('error-email').classList.add('hidden');
-      }
-
-      if (!phoneVal || phoneVal.replace(/\D/g, '').length < 7) {
-        document.getElementById('error-phone').classList.remove('hidden');
-        valid = false;
-      } else {
-        document.getElementById('error-phone').classList.add('hidden');
-      }
-
-      if (!messageVal) {
-        document.getElementById('error-message').classList.remove('hidden');
-        valid = false;
-      } else {
-        document.getElementById('error-message').classList.add('hidden');
-      }
-
-      if (!valid) return;
-
-      document.getElementById('confirm-name').textContent = nameVal;
-      document.getElementById('confirm-type').textContent = typeVal;
-      document.getElementById('confirm-format').textContent = formatVal;
-
-      const summaryBox = document.getElementById('confirm-summary-box');
-      summaryBox.innerHTML = '';
-
-      const fields = [
-        ['Name', nameVal],
-        ['Email', emailVal],
-        ['Phone', phoneVal],
-        ['Type of Coaching', typeVal],
-        ['Preferred Format', formatVal],
-        ['Message', messageVal]
-      ];
-
-      fields.forEach(([label, val]) => {
-        const row = document.createElement('p');
-        const strong = document.createElement('span');
-        strong.className = 'font-semibold text-charcoal';
-        strong.textContent = label + ': ';
-        const span = document.createElement('span');
-        span.className = 'text-charcoal-muted';
-        span.textContent = val;
-        row.appendChild(strong);
-        row.appendChild(span);
-        summaryBox.appendChild(row);
-      });
-
-      latestEnquiryText = fields.map(([k, v]) => `${k}: ${v}`).join('\n');
-
-      const subject = encodeURIComponent(`Santasa Coaching Enquiry - ${typeVal} (${nameVal})`);
-      const body = encodeURIComponent(
-        `Hello Keerthi,\n\nI would like to enquire about relationship coaching at Santasa:\n\n${latestEnquiryText}\n\nWarm regards,\n${nameVal}`
-      );
-
-      document.getElementById('mailto-fallback-link').href = `mailto:kb.nadig@gmail.com?subject=${subject}&body=${body}`;
-
-      enquiryForm.classList.add('hidden');
-      enquiryConfirmation.classList.remove('hidden');
-    });
-  }
-
-  function copyEnquirySummary() {
-    if (!latestEnquiryText) return;
-
-    const tempTextArea = document.createElement('textarea');
-    tempTextArea.value = latestEnquiryText;
-    document.body.appendChild(tempTextArea);
-    tempTextArea.select();
-
-    try {
-      document.execCommand('copy');
-      const copyBtnText = document.getElementById('copy-btn-text');
-      if (copyBtnText) {
-        copyBtnText.textContent = 'Copied to Clipboard';
-        setTimeout(() => {
-          copyBtnText.textContent = 'Copy Enquiry Details';
-        }, 2500);
-      }
-    } catch (err) {
-      // Fallback silent ignore
-    }
-
-    document.body.removeChild(tempTextArea);
-  }
-
-  function resetEnquiryForm(clearInputs = true) {
-    if (!enquiryForm || !enquiryConfirmation) return;
-
-    enquiryConfirmation.classList.add('hidden');
-    enquiryForm.classList.remove('hidden');
-
-    if (clearInputs) {
-      enquiryForm.reset();
-    }
-
-    ['error-name', 'error-email', 'error-phone', 'error-message'].forEach((id) => {
-      const errorElement = document.getElementById(id);
-      if (errorElement) errorElement.classList.add('hidden');
-    });
-  }
-
+  
   // 6. Legal & Ethical Scope Modals
   const legalContent = {
     privacy: {
       title: 'Privacy Policy',
       paragraphs: [
         'Santasa Emotional Wellness and Coaching values your privacy and handles personal information shared during enquiries and coaching sessions with care.',
-        'Information submitted through the website enquiry form (such as your name, email address, phone number, and brief enquiry note) is used solely to respond to your request and arrange appointments.',
-        'Please avoid including very private or sensitive personal details in the initial website enquiry form. Confidentiality expectations and applicable legal limits are explained clearly before coaching sessions begin.'
+        'Information submitted through the website enquiry (such as your name, email address, phone number, and brief enquiry note) is used solely to respond to your request and arrange appointments.',
+        'Confidentiality expectations and applicable legal limits are explained clearly before coaching sessions begin.'
       ]
     },
     disclaimer: {
